@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+body {
+    @apply bg-black
+}
+
 .max-width {
     @apply max-w-[1200px] mx-auto
+}
+
+header nav a:hover {
+    @apply text-[#31F900]
+}
+
+.btn {
+    @apply px-6 py-[10px] rounded-4xl font-semibold
 }
