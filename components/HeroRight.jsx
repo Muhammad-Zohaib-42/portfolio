@@ -1,10 +1,12 @@
 import Image from "next/image";
 import zohaib from "../public/zohaib.webp"
+import SocialIcons from "./SocialIcons";
 
 export default function HeroRight() {
   return (
-    <div>
-        <Image src={zohaib} alt="Zohaib Ranjha" width={500} height={500} className="-mt-[102px]" />
+    <div className="relative w-[40%] h-full">
+        <Image src={zohaib} alt="Zohaib Ranjha" className="absolute bottom-0" width={600} height={600} />
+        <SocialIcons />
     </div>
   )
 }
