@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import MobileMenu from "./MobileMenu";
 
 export default function Header() {
   return (
@@ -19,7 +19,7 @@ export default function Header() {
         >
           Let's Talk
         </a>
-        <button className="cursor-pointer block md:hidden"><Menu className="w-6 h-6" /></button>
+        <MobileMenu />
       </div>
     </header>
   );
