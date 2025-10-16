@@ -1,11 +1,13 @@
+import { Menu } from "lucide-react";
+
 export default function Header() {
   return (
-    <header className="text-white">
-      <div className="max-width flex items-center justify-between h-20 -mb-20 relative z-50">
-        <a href="#" className="text-3xl font-bold">
+    <header className="text-white mb-3 md:mb-0">
+      <div className="max-width flex items-center justify-between h-16 md:h-20 mb-0 md:-mb-20 relative z-50">
+        <a href="#" className="text-[28px] md:text-3xl font-bold">
           Zohaib<span className="text-[#31F900]">.</span>
         </a>
-        <nav className="space-x-10 text-lg">
+        <nav className="space-x-10 text-lg hidden md:block">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Projects</a>
@@ -13,10 +15,11 @@ export default function Header() {
         </nav>
         <a
           href="#"
-          className="btn bg-[#31F900] text-black"
+          className="btn bg-[#31F900] text-black hidden md:block"
         >
           Let's Talk
         </a>
+        <button className="cursor-pointer block md:hidden"><Menu className="w-6 h-6" /></button>
       </div>
     </header>
   );
