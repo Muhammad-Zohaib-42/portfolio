@@ -15,6 +15,8 @@ export default function MarqueeText() {
           <Star />
           <h3>REACT JS</h3>
           <Star />
+          <h3>Redux JS</h3>
+          <Star />
           <h3>NEXT JS</h3>
           <Star />
           <h3>GIT & GITHUB</h3>
@@ -34,6 +36,8 @@ export default function MarqueeText() {
           <h3>JAVASCRIPT</h3>
           <Star />
           <h3>REACT JS</h3>
+          <Star />
+          <h3>Redux JS</h3>
           <Star />
           <h3>NEXT JS</h3>
           <Star />

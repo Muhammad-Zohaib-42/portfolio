@@ -7,10 +7,11 @@ export default function Header() {
         <a href="#" className="text-[28px] md:text-3xl font-bold">
           Zohaib<span className="text-[#31F900]">.</span>
         </a>
-        <nav className="space-x-10 text-lg hidden md:block">
+        <nav className="space-x-6 lg:space-x-10 text-lg hidden md:block">
           <a href="#">Home</a>
-          <a href="#">About</a>
+          <a href="#">Experience</a>
           <a href="#">Projects</a>
+          <a href="#">Certificate</a>
           <a href="#">Contact</a>
         </nav>
         <a
