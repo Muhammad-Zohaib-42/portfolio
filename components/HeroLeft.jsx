@@ -4,7 +4,7 @@ export default function HeroLeft() {
   return (
     <div className="text-white w-full md:w-[60%] h-full flex items-center mt-4">
         <div>
-          <Title />
+          <Title text="Hello There!" />
           <h1 className="text-[32.5px] md:text-[40px] lg:text-5xl font-semibold text-white leading-10 md:leading-16 my-3 md:my-6">
               <span className="text-[#31F900] block"><span className="hidden md:inline">I'm</span> Muhammad Zohaib,</span>
               <span className="block">Front-End Developer</span>
