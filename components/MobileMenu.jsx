@@ -19,11 +19,11 @@ export default function () {
             </button>
           </div>
           <nav className="px-4 pt-3 flex flex-col text-3xl">
-            <a href="#" className="py-2 underline decoration-[#31F900]">Home</a>
-            <a href="#" className="py-2 underline decoration-[#31F900]">Experience</a>
-            <a href="#" className="py-2 underline decoration-[#31F900]">Projects</a>
-            <a href="#" className="py-2 underline decoration-[#31F900]">Certificate</a>
-            <a href="#" className="py-2 underline decoration-[#31F900]">Contact</a>
+            <a onClick={() => setIsMenuOpen(false)} href="#hero" className="py-2 underline decoration-[#31F900]">Home</a>
+            <a onClick={() => setIsMenuOpen(false)} href="#experience" className="py-2 underline decoration-[#31F900]">Experience</a>
+            <a onClick={() => setIsMenuOpen(false)} href="#" className="py-2 underline decoration-[#31F900]">Projects</a>
+            <a onClick={() => setIsMenuOpen(false)} href="#" className="py-2 underline decoration-[#31F900]">Certificate</a>
+            <a onClick={() => setIsMenuOpen(false)} href="#" className="py-2 underline decoration-[#31F900]">Contact</a>
           </nav>
         </div>
       </div>

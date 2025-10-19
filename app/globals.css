@@ -4,6 +4,10 @@
   @apply bg-[#31F900] text-black
 }
 
+html {
+  @apply scroll-smooth
+}
+
 body {
     @apply bg-black
 }
@@ -20,28 +24,32 @@ header nav a:hover {
     @apply px-6 py-[10px] rounded-4xl font-semibold
 }
 
-/* Custom scrollbar styles */
+/* Scrollbar width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
+/* Track (background) */
 ::-webkit-scrollbar-track {
-  background: #333333;
+  background-color: #32F900; /* green track */
 }
 
+/* Thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: #32F900;
+  background-color: black; /* black thumb */
   border-radius: 5px;
 }
 
+/* Thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2ad800;
+  background-color: #2ad800; /* greenish hover effect */
 }
+
 
 /* For Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #32F900 #333333;
+  scrollbar-color: black #32F900;
 }
 
 @keyframes scroll {

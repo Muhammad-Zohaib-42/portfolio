@@ -8,8 +8,8 @@ export default function Header() {
           Zohaib<span className="text-[#31F900]">.</span>
         </a>
         <nav className="space-x-6 lg:space-x-10 text-lg hidden md:block">
-          <a href="#">Home</a>
-          <a href="#">Experience</a>
+          <a href="#hero">Home</a>
+          <a href="#experience">Experience</a>
           <a href="#">Projects</a>
           <a href="#">Certificate</a>
           <a href="#">Contact</a>

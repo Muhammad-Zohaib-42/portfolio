@@ -1,3 +1,4 @@
+import ExperienceBox from "./ExperienceBox";
 import Title from "./Title";
 
 export default function Experience() {
@@ -6,6 +7,7 @@ export default function Experience() {
         <div className="max-width">
             <Title text="Experience" />
             <h2 className="title">My <span className="text-[#31F900] font-bold">Professional</span> Journey</h2>
+            <ExperienceBox />
         </div>
     </section>
   )
