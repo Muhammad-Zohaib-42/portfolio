@@ -16,7 +16,8 @@ body {
     @apply max-w-[1220px] mx-auto px-2 md:px-5
 }
 
-header nav a:hover {
+header nav a:hover,
+footer nav a:hover {
     @apply text-[#31F900]
 }
 

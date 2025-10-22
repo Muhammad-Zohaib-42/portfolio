@@ -10,7 +10,7 @@ export default function HeroLeft() {
               <span className="block">Front-End Developer</span>
           </h1>
           <p className="mb-6 md:mb-10 text-sm md:text-base">I build responsive, performance driven websites and enjoy turning ideas into code.</p>
-          <a href="#" className="btn bg-[#31F900] text-black mr-3">View My Work</a>
+          <a href="#projects" className="btn bg-[#31F900] text-black mr-3">View My Work</a>
           <a href="#" className="bg-black text-white btn border border-[#31F900]">Download CV</a>
         </div>
     </div>
