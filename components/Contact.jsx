@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contact" className="py-10 md:py-20 relative z-50 text-white">
       <div className="max-width">
         
-        <div className="text-center">
+        <div className="text-left md:text-center">
           <Title text="Contact" />
           <h2 className="title">
             Let's <span className="text-[#31F900] font-bold">Connect</span>

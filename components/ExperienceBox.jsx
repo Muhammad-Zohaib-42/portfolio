@@ -4,7 +4,7 @@ import codewise from "../public/codewise.png"
 export default function ExperienceBox() {
   return (
     <div className="text-white bg-black p-3 md:p-5 border border-[rgba(255,255,255,0.5)] rounded-lg mt-6 md:mt-10 w-full md:w-[420px] relative">
-        <div className="absolute -left-2 top-4 w-[7px] h-16 bg-[#32F900] rounded-tl-lg rounded-bl-lg"></div>
+        <div className="absolute -left-2 top-4 w-[7px] h-16 bg-[#32F900] rounded-tl-lg rounded-bl-lg hidden md:block"></div>
         <div className="flex gap-2 md:gap-4">
             <div className="bg-white h-15 w-15 lg:h-20 lg:w-20 rounded-md pt-3">
                 <Image src={codewise} alt="Code Wise Logo" />
