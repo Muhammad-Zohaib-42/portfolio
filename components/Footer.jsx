@@ -2,7 +2,7 @@ import { Mail, Github, Linkedin, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="py-10 relative z-50 text-white">
+    <footer className="py-10 relative z-10 text-white">
       <div className="max-width">
           <div className="text-center md:text-left">
             {/* top section */}

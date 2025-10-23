@@ -3,7 +3,7 @@ import MobileMenu from "./MobileMenu";
 export default function Header() {
   return (
     <header className="text-white mb-3 md:mb-0">
-      <div className="max-width flex items-center justify-between h-16 md:h-20 mb-0 md:-mb-20 relative z-50">
+      <div className="max-width flex items-center justify-between h-16 md:h-20 mb-0 md:-mb-20 relative z-30">
         <a href="#home" className="text-[28px] md:text-3xl font-bold">
           Zohaib<span className="text-[#31F900]">.</span>
         </a>

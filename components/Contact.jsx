@@ -1,9 +1,10 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import Title from "./Title";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-10 md:py-20 relative z-50 text-white">
+    <section id="contact" className="py-10 md:py-20 relative z-10 text-white">
       <div className="max-width">
         
         <div className="text-left md:text-center">
@@ -50,41 +51,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <form className="bg-black border border-[rgba(255,255,255,0.5)] rounded-lg text-white p-3 md:p-8 space-y-5">
-            <div>
-              <label className="block text-sm font-medium mb-2">Name</label>
-              <input
-                type="text"
-                placeholder="Enter your name"
-                className="w-full px-4 py-2 rounded-md border border-[rgba(255,255,255,0.5)] bg-transparent focus:outline-[#31F900]"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium mb-2">Email</label>
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-4 py-2 rounded-md border border-[rgba(255,255,255,0.5)] bg-transparent focus:outline-[#31F900]"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium mb-2">Message</label>
-              <textarea
-                rows="5"
-                placeholder="Write your message..."
-                className="w-full px-4 py-2 rounded-md border border-[rgba(255,255,255,0.5)] bg-transparent focus:outline-[#31F900] resize-none"
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-[#31F900] text-black py-3 rounded-md font-semibold cursor-pointer"
-            >
-              Send Message
-            </button>
-          </form>
+          <ContactForm />
 
         </div>
 

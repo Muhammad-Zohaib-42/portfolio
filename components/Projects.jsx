@@ -6,7 +6,7 @@ import expensesTracker from "../public/expenses-tracker-app.png"
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-10 md:py-20 relative z-50">
+    <section id="projects" className="py-10 md:py-20 relative z-10">
         <div className="max-width">
             <Title text="My Projects" />
             <h2 className="title">Let's <span className="hidden md:inline">Have a Look at</span> <span className="inline md:hidden">Explore</span> <span className="text-[#31F900] font-bold">My Portfolio</span></h2>

@@ -11,8 +11,8 @@ export default function () {
         <Menu className="w-8 h-8" />
       </button>
       <div className={`fixed top-0 left-0 h-screen w-full bg-black ${!isMenuOpen ? "-translate-x-full" : "-translate-x-0"} transition`}>
-        <div className="fixed inset-0 z-[100]" style={{backgroundImage: `linear-gradient(to right, #262626 1px, transparent 1px),linear-gradient(to bottom, #262626 1px, transparent 1px)`,backgroundSize: "20px 20px",}}></div>
-        <div className="relative z-[200]">
+        <div className="fixed inset-0 z-40" style={{backgroundImage: `linear-gradient(to right, #262626 1px, transparent 1px),linear-gradient(to bottom, #262626 1px, transparent 1px)`,backgroundSize: "20px 20px",}}></div>
+        <div className="relative z-50">
           <div className="flex justify-end px-4 pt-[10px]">
             <button onClick={() => setIsMenuOpen(false)}>
               <X className="w-9 h-9" />
