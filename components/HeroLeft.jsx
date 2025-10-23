@@ -11,7 +11,7 @@ export default function HeroLeft() {
           </h1>
           <p className="mb-6 md:mb-10 text-sm md:text-base">I build responsive, performance driven websites and enjoy turning ideas into code.</p>
           <a href="#projects" className="btn bg-[#31F900] text-black mr-3">View My Work</a>
-          <a href="#" className="bg-black text-white btn border border-[#31F900]">Download CV</a>
+          <a href="/Muhammad-Zohaib-CV.pdf" download className="bg-black text-white btn border border-[#31F900]">Download CV</a>
         </div>
     </div>
   )
