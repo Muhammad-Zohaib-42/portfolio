@@ -9,6 +9,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Muhammad Zohaib | Portfolio",
   description: "Frontend Developer Portfolio showcasing projects and skills",
+  icons: {
+    icon: "/zohaib.webp"
+  }
 };
 
 export default function RootLayout({ children }) {
