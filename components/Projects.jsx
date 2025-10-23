@@ -3,6 +3,7 @@ import Title from "./Title";
 import notesTaking from "../public/notes-taking-app.png"
 import restCountries from "../public/rest-countries-app.png"
 import expensesTracker from "../public/expenses-tracker-app.png"
+// import employeeManagement from "../public/employee-management-app.png"
 
 export default function Projects() {
   return (
@@ -14,6 +15,7 @@ export default function Projects() {
                 <ProjectBox img={notesTaking} skills={["HTML", "CSS", "JAVASCRIPT"]} title="Quick Notes App" url="https://quick-notes-app-by-constcoderr.netlify.app/" />
                 <ProjectBox img={restCountries} skills={["HTML", "CSS", "JAVASCRIPT"]} title="Rest Countries App" url="https://rest-countries-app-by-constcoderr.netlify.app/" />
                 <ProjectBox img={expensesTracker} skills={["REACT JS", "TAILWIND CSS"]} title="Expenses Tracker App" url="https://expenses-tracker-app-by-constcoderr.netlify.app/" />
+                {/* <ProjectBox img={employeeManagement} skills={["NEXT JS", "TAILWIND CSS"]} title="Staff Manager App" url="https://employee-management-app-red-alpha.vercel.app/" /> */}
             </div>
         </div>
     </section>
