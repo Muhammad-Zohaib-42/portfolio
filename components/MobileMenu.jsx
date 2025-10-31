@@ -2,14 +2,17 @@
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import {motion} from 'motion/react'
 
 export default function () {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <div className="block md:hidden">
-      <button onClick={() => setIsMenuOpen(true)} className="cursor-pointer">
+      <motion.button initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }} onClick={() => setIsMenuOpen(true)} className="cursor-pointer">
         <Menu className="w-8 h-8" />
-      </button>
+      </motion.button>
       <div className={`fixed top-0 left-0 h-screen w-full bg-black ${!isMenuOpen ? "-translate-x-full" : "-translate-x-0"} transition`}>
         <div className="fixed inset-0 z-40" style={{backgroundImage: `linear-gradient(to right, #262626 1px, transparent 1px),linear-gradient(to bottom, #262626 1px, transparent 1px)`,backgroundSize: "20px 20px",}}></div>
         <div className="relative z-50">
